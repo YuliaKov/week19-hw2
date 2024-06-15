@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Посты</h1>
+      <form id="post-form">
+        <input type="text" id="postTitle" placeholder="Заголовок" required />
+        <textarea id="postBody" placeholder="Текст" required></textarea>
+        <button class="addBtn" type="submit">Добавить пост</button>
+      </form>
+      <div id="posts-container"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
